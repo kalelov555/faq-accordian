@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Google fonts  -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- Fonts Awesome -->
+  <script src="https://kit.fontawesome.com/54232dfb0e.js" crossorigin="anonymous"></script>
+
+
+  <title>FAQ Accordion Card</title>
+
+
+</head>
+
+<body>
+  <div class="container">
+    <div class="img-div">
+      <img class="woman-img-mobile" src="images/illustration-woman-online-mobile.svg" alt="mobile">
+      <img class="woman-img-desktop" src="images/illustration-woman-online-desktop.svg" alt="desktop">
+      <img class="box-img" src="images/illustration-box-desktop.svg" alt="box">
+    </div>
+
+
+    <div class="faq-container">
+      <h1 class="big-heading">FAQ</h1>
+      <div class="partition">
+        <p class="questions" onclick="showText(this)">How many team members can I invite?</p><i class="fas fa-angle-down"></i>
+      </div>
+      <p class="answers">You can invite up to 2 additional users on the Free plan. There is no limit on
+        team members for the Premium plan.</p>
+
+      <div class="partition">
+        <p class="questions" onclick="showText(this)">What is the maximum file upload size?</p><i class="fas fa-angle-down"></i>
+      </div>
+      <p class="answers">No more than 2GB. All files in your account must fit your allotted storage space.</p>
+
+      <div class="partition">
+        <p class="questions" onclick="showText(this)">How do I reset my password?</p><i class="fas fa-angle-down"></i>
+      </div>
+      <p class="answers" >Click “Forgot password” from the login page or “Change password” from your profile page.
+        A reset link will be emailed to you.</p>
+
+      <div class="partition">
+        <p class="questions" onclick="showText(this)">Can I cancel my subscription?</p><i class="fas fa-angle-down"></i>
+      </div>
+      <p class="answers">Yes! Send us a message and we’ll process your request no questions asked.</p>
+
+      <div class="partition">
+        <p class="questions" onclick="showText(this)">Do you provide additional support?</p><i class="fas fa-angle-down"></i>
+      </div>
+      <p class="answers">Chat and email support is available 24/7. Phone lines are open during normal business hours.</p>
+
+    </div>
+  </div>
+
+
+  <script src="index.js" charset="utf-8"></script>
+
+</body>
+
+</html>
